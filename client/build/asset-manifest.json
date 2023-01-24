@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.edc99495.css",
+    "main.js": "/static/js/main.468827ee.js",
+    "static/media/background-main.webp": "/static/media/background-main.7dc53a4685cb148ff58e.webp",
+    "static/media/people.webp": "/static/media/people.bfc7ea8945d823dea984.webp",
+    "static/media/logistics.webp": "/static/media/logistics.66f8f957247f3be046c2.webp",
+    "static/media/rd441-bl.svg": "/static/media/rd441-bl.66e3690561b5a490521d9d5440083f6b.svg",
+    "static/media/rd441-white.svg": "/static/media/rd441-white.11e71f2d55b3f404253b68a827de8af1.svg",
+    "index.html": "/index.html",
+    "static/media/list.svg": "/static/media/list.6e235180fb8d9d8ee293.svg",
+    "main.edc99495.css.map": "/static/css/main.edc99495.css.map",
+    "main.468827ee.js.map": "/static/js/main.468827ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edc99495.css",
+    "static/js/main.468827ee.js"
+  ]
+}

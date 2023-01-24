@@ -5,13 +5,15 @@ const app = express();
 const port = process.env.PORT || 5000;
 const fs = require("fs");
 const path = require("path");
+const _dirname = path.dirname("")
+const buildPath = path.join(_dirname, "../client/build");
 const template = fs.readFileSync(path.join(`./`, "mail.html"), "utf-8");
 let hbs = require("nodemailer-express-handlebars");
 
 require("dotenv").config();
 
 app.use(cors());
-
+app.use(express.static(buildPath));
 app.use(express.json());
 // app.use(cors({ origin: `${process.env.CLIENT_URL}` }));
 
@@ -72,5 +74,6 @@ app.get("/", (req, res) => {
   .then((response) => res.send(response.message))
   .catch((error) => res.status(500).send(error.message));
 });
+
 
 app.listen(port, () => console.log(`Example app listening on port ${port}`));
